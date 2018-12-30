@@ -2,8 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sham.project</groupId>
   <artifactId>SaprkProject</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <inceptionYear>2008</inceptionYear>
+  <modules>
+    <module>MarketingAnalysis</module>
+  </modules>
   <properties>
     <scala.version>2.10.4</scala.version>
   </properties>
