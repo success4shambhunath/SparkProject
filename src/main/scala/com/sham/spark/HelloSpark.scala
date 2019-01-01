@@ -1,4 +1,4 @@
-package com.sham.project
+package com.sham.spark
 
 import org.apache.spark.{SparkConf, SparkContext}
 

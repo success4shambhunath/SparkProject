@@ -1,12 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.sham.project</groupId>
+  <groupId>com.sham.spark</groupId>
   <artifactId>SaprkProject</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <inceptionYear>2008</inceptionYear>
   <modules>
     <module>MarketingAnalysis</module>
+      <module>comman</module>
   </modules>
   <properties>
     <scala.version>2.10.4</scala.version>
@@ -19,7 +20,6 @@
       <url>http://scala-tools.org/repo-releases</url>
     </repository>
   </repositories>
-
   <pluginRepositories>
     <pluginRepository>
       <id>scala-tools.org</id>
@@ -29,24 +29,7 @@
   </pluginRepositories>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/com.databricks/spark-csv -->
-    <dependency>
-      <groupId>com.databricks</groupId>
-      <artifactId>spark-csv_2.10</artifactId>
-      <version>1.5.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/com.databricks/spark-avro -->
-    <dependency>
-      <groupId>com.databricks</groupId>
-      <artifactId>spark-avro_2.10</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.10</artifactId>
-      <version>1.6.3</version>
-    </dependency>
+
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
